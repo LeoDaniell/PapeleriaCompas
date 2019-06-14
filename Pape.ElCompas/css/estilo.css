@@ -1,0 +1,207 @@
+.navbar-brand
+{
+    background: #90AFC5
+}
+.mipie{
+
+    background: #90AFC5;
+    border-radius: 10px;
+}
+
+
+.cont{
+
+    background: #E2E8E4;
+    border-radius: 10px;
+    
+}
+.caja{
+
+    background: #90AFC5;
+
+    border-radius: 10px;
+}
+.btn-primary{
+    
+    
+    color: black;
+    background: #336B87;
+
+    
+}
+.btn-primary:hover{
+
+    background-color: black;
+}
+
+.tit{
+
+    background: #E2E8E4;
+    text-align: center;
+
+}
+
+/*Comienza Pagina Inicio*/
+
+.bus{
+    text-align: left
+}
+
+.card{
+
+    width: 500px; height: 600px;
+}
+.botons
+{
+    text-align: center;
+}
+
+.btn-outline-success
+{
+    
+    
+    color: black;
+    background: #336B87;
+
+    
+}
+.btn-outline-success:hover{
+
+    background-color: black;
+}
+
+/*productoindividual*/
+
+.produ { 
+    
+    text-align: center;
+    
+}
+
+.conta{
+    width:50px;
+    left: 50px;
+     
+}
+
+.imco{
+
+    text-align: left
+}
+
+.ubi{
+    text-align: center;
+  
+}
+.ubim
+{
+    margin: 50px;
+}
+
+
+/**Inicia CSS de agregar nuevo producto */
+.uno{
+    width: 400px;
+    height: 400px;
+    margin:auto;
+}
+.dos{
+    width: 50px;
+    height: 50px;
+    margin:auto;
+}
+
+
+/*inicio de sesion*/
+
+.login{
+    text-align: center;
+    background: gray;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 10px;
+
+}
+
+
+
+/*recargas*/
+
+.btn{
+    text-align: center;
+    color: black;
+    background: #336B87;
+
+}
+.btn:hover{
+
+    background-color: black;
+}
+
+.cuadro{
+    margin: auto;
+}
+
+.au{
+    width: auto;
+    height: auto
+    
+}
+
+/*estilos pie de pagina*/
+
+.footer
+{
+    height: 40px;
+    margin-top: 35px;
+    border-spacing: 20px;
+    text-align: center;
+    padding-top: 20px; 
+}
+.card
+{
+    text-align: center;
+    border-radius: 20px;
+}
+button
+{
+    border-block: none;
+    background: none;
+}
+
+.cards
+{
+    margin: auto;
+    width: auto;
+    height: auto;
+ }
+ p{
+
+text-align: justify;
+ }
+ .txt{
+     text-align: center;
+ }
+ .bb
+ {
+color: red;
+
+ }
+
+
+ /*inventario*/
+
+ .compl{
+    background: green;
+}
+
+.compl1{
+    background: yellow;
+
+}
+
+.compl2{
+    background: red;
+}
+
+ 
