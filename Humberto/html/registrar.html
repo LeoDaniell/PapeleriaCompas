@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+
+    <title>Papeleria El Compás</title>
+</head>
+
+<body background="../imagen/A2A.jpg">
+    <!--Contenedor Principal-->
+    <div class="container">
+        <!--Seccion botones-->
+        <div class="container">
+
+            <div class="row caja" style="margin-top:20px">
+
+                <div class="col-md-12 " style="margin-bottom: 0px" style="margin-top: 0px;">
+
+
+                    <p class="boton">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <a class="navbar-brand" href="registrar.html"><img src="../imagen/logocompassss.png"
+                                    width="100px" height="100px"></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="registrar.html"><button class="btn btn-primary"
+                                                type="submit">Ventas</button></a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="modificar.html" id="navbarDropdown" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <button class="btn btn-primary" type="submit">Gestion Productos</button>
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="modificar.html">Editar Producto</a>
+                                            <a class="dropdown-item" href="agregar.html">Agregar nuevo Producto</a>
+
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <button class="btn btn-primary" type="submit">Servicios</button>
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="https://hit.mx/" target="_blank">Hit</a>
+                                                <a class="dropdown-item" href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank">Correo</a>
+                                                <a class="dropdown-item" href="https://www.paypal.com/mx/webapps/mpp/home" target="_blank">PayPal</a>
+
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="inventario.html"><button class="btn btn-primary"
+                                                type="submit">Inventario</button></a>
+                                    </li>
+
+
+                                </ul>
+                                <form class="form-inline my-2 my-lg-0">
+                                    <!--Creacion de inicio de Seción-->
+                                    <button type="button" data-toggle="modal" data-target="#exampleModal">
+                                        <img src="../imagen/login.png" width="50px" height="50px">
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" aria-labelledby="exampleModalLabel"
+                                        aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Cerrar de Sesión</h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+
+
+                                                    <form>
+                                                        
+                                                        <div class="form-group" style="margin-top: 15px">
+                                                            <label> <p class="bb">¿Estas Seguro De Querer Cerrar Sesión?</p>   &nbsp; </label>
+                                                          
+                                                        </div>
+                                                    </form>
+
+
+                                                    <a href="../index.html" target=button type="submit"
+                                                        class="btn btn-primary" style="margin-top: 15px;"></button>
+                                                        Si, Cerrar Sesión
+                                                    </a>
+
+
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </form>
+                            </div>
+
+                        </nav>
+
+
+
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <!--Buscador-->
+            <div class="row tit" style="margin-top: 15px;">
+                <div class="col-md-12" style="margin-top: 15px;">
+                    <h1>Registrar Ventas</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <!--seccion Contenido-->
+            <div class="row cont">
+
+
+
+
+
+
+                <!-- Columna 1-->
+
+                <div class="col-md-6" style="margin-top: 15px">
+
+                    <div class="row opcion"></div>
+                    <p>
+                        Producto:
+
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Elegir Producto
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <button class="dropdown-item" type="button">Lapiz</button>
+                                <button class="dropdown-item" type="button">Pegamento</button>
+                                <button class="dropdown-item" type="button">Compás</button>
+                            </div>
+                        </div>
+
+                    </p>
+
+                    <p>
+                        Marca:
+
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Elegir Marca
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <button class="dropdown-item" type="button">Dixon</button>
+                                <button class="dropdown-item" type="button">Pritt</button>
+                                <button class="dropdown-item" type="button">Baco</button>
+                            </div>
+                        </div>
+                    </p>
+
+                    <p>
+                        Precio individual:
+
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Precio
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <button class="dropdown-item" type="button">$10</button>
+                                <button class="dropdown-item" type="button">$15</button>
+                                <button class="dropdown-item" type="button">$30</button>
+                            </div>
+                        </div>
+                    </p>
+
+                    <p>
+                        Cantidad:
+
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Selecciona la cantidad
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <button class="dropdown-item" type="button">1</button>
+                                <button class="dropdown-item" type="button">2</button>
+                                <button class="dropdown-item" type="button">3</button>
+                            </div>
+                        </div>
+                    </p>
+
+                    <div class="btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-secondary active">
+                            <input type="checkbox" checked autocomplete="off"> Realizar Venta
+                        </label>
+                    </div>
+                    <div class="" style="margin-top: 15px"></div>
+
+                </div>
+
+
+                <!-- Columna 2-->
+
+                <div class="col-md-6" style="margin-top: 15px">
+                    <p>
+                        Lista de productos a vender:
+                    </p>
+
+
+                    <div class="row tab" style="margin-top: 15px;"></div>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">Id Producto</th>
+                                <th scope="col">Nombre</th>
+                                <th scope="col">Marca</th>
+                                <th scope="col">Cantidad</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">01</th>
+                                <td>Bicolor Delgado</td>
+                                <td>DIXON</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">02</th>
+                                <td>Colores 6 cortos</td>
+                                <td>DIXON</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">02</th>
+                                <td>Compas de prseicion</td>
+                                <td>MAE</td>
+                                <td>1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <p>
+                        Precio Total de Venta:
+                    </p>
+                    <input type="text" disabled="true" name="fname">
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <!--Aqui acaba contenido-->
+        <footer class="footer" style="margin-top:0px">
+
+            <div class="container">
+                <!--Inicio pie de pagina-->
+                <div class="row mipie">
+
+                    <div class="col-md-12" style="margin-top: 15px">
+
+                        <p class="txt">Dirección: Francisco Javier Mina #502 &nbsp; &nbsp; <b>&copy;Derechos Reservados
+                                2019 </b>
+                            &nbsp; &nbsp;
+                            papeleriaelcompas@example.com</p>
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+
+        </footer>
+
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>
